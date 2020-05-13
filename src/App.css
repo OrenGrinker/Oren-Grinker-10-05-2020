@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,102 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  border-bottom: 1px solid;
+  box-shadow:0px 1px 1px #35282817;
+  border-color: #746a6a21;
+ 
+}
+
+.nav h2{
+  margin-left: 10px;
+}
+
+.nav .nav-toggle{
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.home {
+  margin-top: 10px;
+}
+
+.home .search{
+width: 100%;
+}
+
+.weather-card, .favourite{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  box-shadow: 0px 2px 21px 1px rgba(184,182,184,0.54);
+  padding:2%;
+  background-image: url("./Assets/Images/clouds.gif");
+}
+
+.weather-logo{
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+}
+
+.current-condition {
+  display: flex;
+}
+
+.current-condition p{
+ margin-left: 10px;
+ font-size: 15px;
+ color: #3F51B5;
+ font-weight: bold;
+}
+
+.dark-mode {
+  background-color: black;
+
+   
+}
+ 
+.fav-card{
+  background-color: white;
+  position: relative;
+ line-height: 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: 200px;
+  box-shadow: 0px 2px 21px 1px rgba(184,182,184,0.54);
+  cursor: pointer;
+}
+
+ 
+
+.fav-yes{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+ 
+.fav-card h2,h3{
+ margin-top: 50px;
+ color: #0dbfff;
+}
+
+.forecast{
+  margin-top: 10%;
+}
+
+.MuiSwitch-input{
+  position: absolute !important;
+}
+.search-wrapper{
+  background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+ 
+    height: 60px;
+  }
+
+ 
