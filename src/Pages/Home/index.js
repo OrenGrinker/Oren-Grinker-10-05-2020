@@ -128,7 +128,7 @@ function Home(props) {
                 </div>
               </React.Fragment>
             )}
-            style={{ width: 500 }}
+            style={{ width: 300 }}
             renderInput={(params) => (
               <TextField
                 onKeyUp={search}
