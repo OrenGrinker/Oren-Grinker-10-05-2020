@@ -96,7 +96,7 @@ function Home(props) {
       <center>
        <Grid container>
          <Grid lg={12} item>
-         <div className="search-wrapper">
+         <div className="search-wrapper" style={{ alignItems:"center", justifyContent:"center" }}>
          {
            err!=" "? <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
              <Alert onClose={handleClose} severity="error">{err}</Alert>
